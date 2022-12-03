@@ -1,0 +1,2 @@
+thumbor[opencv]
+thumbor-aws
