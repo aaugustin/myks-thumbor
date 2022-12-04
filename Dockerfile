@@ -25,6 +25,6 @@ ENV PYTHONUNBUFFERED 1
 COPY --from=builder /app /app
 COPY thumbor.conf ./
 
-CMD ["thumbor", "-p", "8080"]
+CMD ["thumbor", "--port", "8080", "--processes", "4"]
 
 EXPOSE 8080
