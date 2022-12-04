@@ -1,2 +1,2 @@
 thumbor[opencv]
-thumbor-aws
+git+https://github.com/aaugustin/thumbor-aws.git@main
