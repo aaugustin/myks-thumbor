@@ -1,5 +1,5 @@
+.direnv
 .envrc
-venv
 
 .gitignore
 Dockerfile
